@@ -1,0 +1,286 @@
+
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+/* align text to the center */
+  .mainimage h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color: white;
+  }
+
+/* Image css */
+ .mainimage img {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* push the image to the back */
+  z-index: -1;
+}
+
+/* buttons css */
+#discord{
+  position: absolute;
+  top: 3%;
+  left: 91%;
+  height: 45px;
+  width: 120px;
+  background-color: #2DA8D8;
+  border: 2px solid #2DA8D8;
+  border-radius: 30px;
+}
+
+#steam{
+  position: absolute;
+  top: 3%;
+  left: 83%;
+  height: 45px;
+  width: 120px;
+  background-color: #2DA8D8;
+  border: 2px solid #2DA8D8;
+  border-radius: 30px;
+}
+
+/* server info css */
+
+.server{
+  left: 0;
+}
+.server-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+  max-width: 100%;
+  padding-left: 15%;
+  padding-top: 125px;
+  padding-right: 15%;
+}
+
+.servers-box{
+  flex: 1;
+  margin-right: 30px;
+}
+
+.servers-box h2{
+  position: relative;
+  display: flex;
+  justify-content: center ;
+}
+
+.middlerectangle{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.middlerectangle img{
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  z-index: 1;
+  display: block;
+}
+
+.middlerectanglehover{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: #2DA8D8;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+}
+
+.middlerectangle:hover .middlerectanglehover{
+  opacity: 1;
+}
+
+.middlerectanglehover h3{
+  text-align: center;
+  color: white;
+
+}
+
+.middlerectanglehover li{
+  color: white;
+}
+
+.middlerectangle button{
+  margin-top: 25%;
+  background-color: white;
+  color: black;
+  margin-left: 35%;
+  border-radius: 30px;
+}
+
+.middlerectangle1{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.middlerectangle1 img{
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  z-index: 1;
+  display: block;
+}
+
+.middlerectanglehover1{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: #2DA8D8;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+}
+
+.middlerectangle1:hover .middlerectanglehover1{
+  opacity: 1;
+}
+
+.middlerectanglehover1 h3{
+  text-align: center;
+  color: white;
+}
+
+.middlerectanglehover1 li{
+  color: white;
+}
+
+.middlerectangle1 button{
+  margin-top: 25%;
+  background-color: white;
+  color: black;
+  margin-left: 35%;
+  border-radius: 30px;
+}
+
+.middlerectangle2{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.middlerectangle2 img{
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  z-index: 1;
+  display: block;
+}
+
+.middlerectanglehover2{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: #2DA8D8;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+}
+
+.middlerectangle2:hover .middlerectanglehover2{
+  opacity: 1;
+}
+
+.middlerectanglehover2 h3{
+  text-align: center;
+  color: white;
+}
+
+.middlerectanglehover2 li{
+  color: white;
+}
+
+.middlerectangle2 button{
+  margin-top: 25%;
+  background-color: white;
+  color: black;
+  margin-left: 35%;
+  border-radius: 30px;
+}
+
+.middlerectangle3{
+  height: 290px;
+  width: 290px;
+  border: 3px solid #2DA8D8;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.middlerectangle3 img{
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  z-index: 1;
+  display: block;
+}
+
+.middlerectanglehover3{
+  height: 290px;
+  width: 290px;
+  border: 2px solid #2DA8D8;
+  background-color: #2DA8D8;
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 1;
+}
+
+.middlerectangle3:hover .middlerectanglehover3{
+  opacity: 1;
+}
+
+.middlerectanglehover3 h3{
+  text-align: center;
+  color: white;
+}
+
+.middlerectanglehover3 li{
+  color: white;
+}
+
+.middlerectangle3 button{
+  margin-top: 25%;
+  background-color: white;
+  color: black;
+  margin-left: 35%;
+  border-radius: 30px;
+}
